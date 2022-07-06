@@ -1,0 +1,13 @@
+{
+  "name": "upload_images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd image_frontend && npm run start",
+    "server": "cd image_backend && npm run start",
+    "start": "concurrently \" npm run client \" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC"
+}
